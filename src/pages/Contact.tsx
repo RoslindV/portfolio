@@ -2,6 +2,7 @@ import React from "react";
 import { GitHub, LinkedIn } from "../assets/icons";
 
 const Contact = React.forwardRef((props: any, ref: any) => {
+  console.log(props);
   return (
     <div
       ref={ref}

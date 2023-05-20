@@ -1,6 +1,7 @@
 import React from "react";
 
 const About = React.forwardRef((props: any, ref: any) => {
+  console.log(props);
   return (
     <div
       ref={ref}

@@ -2,6 +2,7 @@ import React from "react";
 import profileImage from "../assets/images/picture.jpeg";
 
 const Home = React.forwardRef((props: any, ref: any) => {
+  console.log(props);
   return (
     <div ref={ref} id="home" className="h-[700px] bg-black text-white">
       <div className="flex flex-col items-center pt-[100px]">
