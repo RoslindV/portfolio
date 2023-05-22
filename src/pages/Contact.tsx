@@ -12,7 +12,7 @@ const Contact = React.forwardRef((props: any, ref: any) => {
       <p className="font-medium text-[36px] text-[#B24BF3] pt-[50px]">
         Let's Talk
       </p>
-      <p className="pt-[20px]">
+      <p className="pt-[20px] text-center">
         Want to create something together? I would love to hear from you. Here's
         how you can contact me
       </p>

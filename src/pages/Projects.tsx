@@ -27,9 +27,9 @@ const Projects = React.forwardRef((props: any, ref: any) => {
   return (
     <div
       ref={ref}
-      className="h-[700px] bg-black text-white flex flex-col items-center"
+      className="bg-black text-white flex flex-col items-center py-[90px]"
     >
-      <span className="pt-[90px] text-[25px]">PROJECTS</span>
+      <span className=" text-[25px]">PROJECTS</span>
       <div className="flex justify-center gap-10 pt-[25px] flex-wrap">
         {projects.map((card) => (
           <Card key={card.id} title={card.title} content={card.content} />

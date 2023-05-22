@@ -4,15 +4,16 @@ const About = React.forwardRef((props: any, ref: any) => {
   console.log(props);
   return (
     <div
+      {...props}
       ref={ref}
       id="about"
-      className="h-[700px] bg-[#252525] text-white flex flex-col items-center"
+      className="bg-[#252525] text-white flex flex-col items-center py-[90px]"
     >
-      <p className="pt-[90px] text-[25px] ">ABOUT</p>
-      <span className="text-[35px] text-[#B24BF3] pt-[20px]">
+      <p className="text-[25px] ">ABOUT</p>
+      <p className="text-[35px] text-[#B24BF3] pt-[20px] text-center">
         ROSLIND VASANTHA
-      </span>
-      <p className="pt-[80px]">
+      </p>
+      <p className="pt-[60px] px-5 text-center">
         Hi, I'm currently working as a front-end developer. I have 1 year
         experience as a full-stack developer. I have worked in healthcare,
         communication and industrial automation domains.
